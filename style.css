@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.announceContainer {
+  width: 100%;
+  height: 63px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.announceContainer p {
+  color: white;
+}
+
+.announceContainer button {
+  width: 140px;
+  height: 37px;
+  background-color: #eb5757;
+  border-radius: 30px;
+  border: none;
+  margin-right: 9px;
+  color: white;
+}
+
+.headerContainer {
+  width: 100%;
+  height: 73px;
+  background-color: #eb5757;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.wrapper {
+  width: 76%;
+  height: 100%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav {
+  color: white;
+  /* margin: 25px; */
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  /* background-color: green; */
+  gap: 34px;
+}
+.iconHold {
+  width: 45px;
+  height: 36px;
+  background-color: black;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: 12px;
+  right: 11.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+  color: white;
+}
+
+.heroContainer {
+  width: 100%;
+  height: calc(83vh - 136px);
+  background-color: red;
+  background-image: url(./image/heroImg.jpg);
+  background-repeat: no-repeat;
+
+  background-position: center;
+  background-size: cover;
+}
+
+.herowrapper {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+}
+
+.herotextHold {
+  margin-left: 12%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  color: white;
+}
+
+.herotextHold h1 {
+  margin: 0;
+  font-size: 62px;
+}
+
+.herotextHold p {
+  width: 400px;
+  font-size: 18px;
+}
+
+.herotextHold button {
+  width: 140px;
+  height: 30px;
+  margin-top: 16px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.herotextHold button:hover {
+  background-color: white;
+  color: black;
+  transition: all 350ms ease-in-out;
+}
+
+.supportContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.supportWrapper {
+  width: 76%;
+  min-height: 20px;
+}
+.supUp {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+.supUp p {
+  width: 480px;
+}
+.supUp h1 {
+  font-size: 40px;
+}
+.supUp h4 {
+  text-transform: uppercase;
+}
+.supDown {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  margin-top: 40px;
+}
+
+.supbox {
+  width: 360px;
+  height: 360px;
+  background-color: #222222;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  color: white;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+.downCompsup p {
+  width: 360px;
+  margin-top: 20px;
+  line-height: 27px;
+  overflow: hidden;
+}
+.supbox h2 {
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+}
+.supbox p {
+  font-size: 35px;
+  font-weight: bold;
+  margin-left: 70px;
+  margin-top: 70px;
+}
+.cir {
+  position: absolute;
+  right: -70px;
+  bottom: -70px;
+}
+.downCompsup {
+  /* position: relative; */
+  overflow: hidden;
+}
+.mainhcomponent {
+  position: sticky;
+  top: 0px;
+}
+.tri {
+  position: absolute;
+  right: -38px;
+  bottom: -70px;
+}
+.rect {
+  position: absolute;
+  right: -38px;
+  bottom: -110px;
+}
